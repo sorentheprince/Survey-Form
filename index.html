@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">madebyHumans™ Customer Feedback Survey</h1>
+    <p id="description">
+      Welcome to our survey! We appreciate your time and feedback. This survey
+      is designed to gather information and your responses will help us improve
+      our service.
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">
+          Enter your Name:
+          <input
+            name="name"
+            for="name"
+            id="name"
+            type="text"
+            required
+            placeholder="Example: John Doe"
+          />
+        </label>
+        <label for="email" id="email-label">
+          Enter your Email
+          <input
+            name="email"
+            for="email"
+            id="email"
+            type="email"
+            required
+            placeholder="Example: johndoe@john.com"
+          />
+        </label>
+        <label for="number" id="number-label">
+          Enter your age (optional):
+          <input
+            name="number"
+            for="number"
+            id="number"
+            type="number"
+            min="1"
+            max="3"
+            placeholder="Enter a valid age. (optional)"
+          />
+        </label>
+        <label for="occupation" id="occupation-label">
+          What is your gender?
+          <select name="occupation" id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Other</option>
+            <option value="4">Prefer not to say</option>
+          </select>
+        </label>
+        How often do you visit out store?
+        <label for="daily">
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="freq-type"
+            id="daily"
+          />
+          Daily
+        </label>
+        <label for="weelky">
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="freq-type"
+            id="weekly"
+          />
+          Weekly
+        </label>
+        <label>
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="freq-type"
+            id="rarely"
+          />
+          Rarely
+        </label>
+        <label>
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="freq-type"
+            id="never"
+          />
+          Never
+        </label>
+        Which of the following services have you used at our store?
+        <label for="skateboard">
+          <input
+            type="checkbox"
+            value="name"
+            name="prod-type"
+            id="skateboard"
+          />
+          Skateboards
+        </label>
+        <label for="trucks">
+          <input type="checkbox" value="name" name="prod-type" id="trucks" />
+          Trucks
+        </label>
+        <label for="wheels">
+          <input type="checkbox" value="name" name="prod-type" id="wheels" />
+          Wheels
+        </label>
+        <label for="bearings">
+          <input type="checkbox" value="name" name="prod-type" id="bearings" />
+          Bearings
+        </label>
+        <label for="griptape">
+          <input type="checkbox" value="name" name="prod-type" id="griptape" />
+          Griptape
+        </label>
+        <label for="clothing">
+          <input type="checkbox" value="name" name="prod-type" id="clothing" />
+          Clothing
+        </label>
+        <label for="shoes">
+          <input type="checkbox" value="name" name="prod-type" id="shoes" />
+          Shoes
+        </label>
+        <label for="Accessories">
+          <input
+            type="checkbox"
+            value="name"
+            name="prod-type"
+            id="Accessories"
+          />
+          Accessories
+        </label>
+
+        How would you rate your overall satisfaction with madebyHumans?
+        <label for="verysatisfied">
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="satis-type"
+            id="verysatisfied"
+          />
+          Very Satisfied
+        </label>
+        <label for="satisfied">
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="satis-type"
+            id="satisfied"
+          />
+          Satisfied
+        </label>
+        <label for="neutral">
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="satis-type"
+            id="neutral"
+          />
+          Neutral
+        </label>
+        <label for="dissatisfied">
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="satis-type"
+            id="dissatisfied"
+          />
+          Dissatisfied
+        </label>
+        <label for="verydissatisfied">
+          <input
+            type="radio"
+            class="inline"
+            value="name"
+            name="satis-type"
+            id="verydissatisfied"
+          />
+          Very Dissatisfied
+        </label>
+        <label>
+          Do you have any suggestions for how we could improve our company or
+          products?
+          <textarea
+            name="suggestions"
+            id="suggestions"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </label>
+      </fieldset>
+      <button id="submit" type="submit">
+        <input type="button" value="Complete Form!" id="submit" />
+      </button>
+    </form>
+  </body>
+</html>

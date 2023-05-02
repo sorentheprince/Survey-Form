@@ -1,0 +1,79 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f0f0f0;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+/* Header styles */
+#title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#description {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Form styles */
+form {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* Button styles */
+button {
+  display: block;
+  background-color: #009688;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00796b;
+}
